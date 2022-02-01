@@ -50,6 +50,12 @@ class SkillScreen extends StatelessWidget {
                   imageUrl: "https://img.icons8.com/color/344/html-5--v1.png", 
                   percent: "60.0%",
                   pernum: 0.6,),
+                  30.widthBox,
+                SkillItem(
+                  title: "Matlab", 
+                  imageUrl: "https://img.icons8.com/fluency/344/matlab.png", 
+                  percent: "40.0%",
+                  pernum: 0.40,),
                 
                 // images from: https://icons8.com/icons/
                        
