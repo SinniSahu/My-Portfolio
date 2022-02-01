@@ -1,8 +1,10 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
+// import 'package:flutter_icons/flutter_icons.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:velocity_x/velocity_x.dart';
+
 
 class SocialAccounts extends StatelessWidget {
   const SocialAccounts({Key? key}) : super(key: key);
@@ -45,7 +47,8 @@ class SocialAccounts extends StatelessWidget {
   Widget build(BuildContext context) {
     return [
       const Icon(
-        AntDesign.twitter,  // AntDesign from package:flutter_icons
+        FontAwesomeIcons.twitter,
+        // AntDesign.twitter,  // AntDesign from package:flutter_icons
         color: Colors.white,
       ).mdClick(() {            // mdClick == onPressed
         // _launchURLTwitter();
@@ -53,7 +56,8 @@ class SocialAccounts extends StatelessWidget {
       }).make(),
       20.widthBox,
       const Icon(
-        AntDesign.instagram,
+        FontAwesomeIcons.instagram,
+        // AntDesign.instagram,
         color: Colors.white,
       ).mdClick(() {
         // _launchURLInstagram();
@@ -61,7 +65,8 @@ class SocialAccounts extends StatelessWidget {
       }).make(),
       20.widthBox,
       const Icon(
-        AntDesign.linkedin_square,
+        FontAwesomeIcons.linkedinIn,
+        // AntDesign.linkedin_square,
         color: Colors.white,
       ).mdClick(() {
         // _launchURLLinkedIn();
@@ -69,7 +74,8 @@ class SocialAccounts extends StatelessWidget {
       }).make(),
       20.widthBox,
       const Icon(
-        AntDesign.github,
+        FontAwesomeIcons.github,
+        // AntDesign.github,
         color: Colors.white,
       ).mdClick(() {
         // _launchURLGithub();

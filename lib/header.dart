@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
+// import 'package:flutter_icons/flutter_icons.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:portfolio/coolors.dart';
 import 'package:portfolio/widgets/socialaccounts.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -124,11 +125,13 @@ class CustomAppBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Icon(
-      AntDesign.codesquare,
-      size: 50,
-      color: Coolors.accentColor,
-    );
+    return FaIcon(FontAwesomeIcons.terminal, size: 50,);
+    // Icon(
+    //   AntDesign.codesquare,
+    //   size: 50,
+    //   color: Coolors.accentColor,
+    // );
+    
   }
 }
 

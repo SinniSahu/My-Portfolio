@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:portfolio/coolors.dart';
 import 'package:portfolio/widgets/socialaccounts.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -55,11 +55,12 @@ class FooterScreen extends StatelessWidget {
         mobile: VStack([
           [
         "Thanks for scrolling ".richText.bold.white.xl2.make(),
-        const Icon(
-            AntDesign.heart,
-            color: Vx.white,
-            size: 20,
-          ),
+        // const Icon(
+        //     AntDesign.heart,
+        //     color: Vx.white,
+        //     size: 20,
+        //   ),
+          const FaIcon(FontAwesomeIcons.heart,color: Vx.white,).p4(),
         ].hStack(),
         10.heightBox,
         const SocialAccounts(),
@@ -72,11 +73,12 @@ class FooterScreen extends StatelessWidget {
         web: HStack([
         [
           ["Thanks for scrolling ".richText.bold.white.xl2.make(),
-        const Icon(
-            AntDesign.heart,
-            color: Vx.white,
-            size: 20,
-          ),
+        // const Icon(
+        //     AntDesign.heart,
+        //     color: Vx.white,
+        //     size: 20,
+        //   ),
+          const FaIcon(FontAwesomeIcons.heart,color: Vx.white,).p4(),
         ].hStack(),
         10.heightBox,
         const SocialAccounts(),
