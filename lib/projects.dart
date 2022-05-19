@@ -27,15 +27,12 @@ class MiddleScreen extends StatelessWidget {
               enlargeCenterPage: true,
               scrollDirection: Axis.horizontal,
               items: [
+                const ProjectWidget(title: "Society App").onTap(() => launch("https://github.com/SinniSahu/Society-App")),
                 GestureDetector(
-                  child: const ProjectWidget(title: "Incenzo"),
-                  onTap: (){
-                    launch("https://github.com/zorione/SheHacks_Team-027");
-                  },
-                  ),
-                const ProjectWidget(title: "Recipe App").onTap(() => launch("https://github.com/Xurde-Sni/Meals_Recipe")),
-                const ProjectWidget(title: "Personal Expenses").onTap(() => launch("https://github.com/Xurde-Sni/Personal_Expenses")),
-                const ProjectWidget(title: "Tic-Tac-Toe\nSocket Programing").onTap(() => launch("https://github.com/Xurde-Sni/Tic-Tac-Toe-Socket-Programing")),
+                  child: const ProjectWidget(title: "Incenzo"),onTap: (){ launch("https://github.com/zorione/SheHacks_Team-027");}, ),
+                const ProjectWidget(title: "Recipe App").onTap(() => launch("https://github.com/SinniSahu/Meals_Recipe")),
+                const ProjectWidget(title: "Personal Expenses").onTap(() => launch("https://github.com/SinniSahu/Personal_Expenses")),
+                const ProjectWidget(title: "Tic-Tac-Toe\nSocket Programing").onTap(() => launch("https://github.com/SinniSahu/Tic-Tac-Toe-Socket-Programing")),
                 // ProjectWidget(title: "Payoye"),
               ],
               height: 170,

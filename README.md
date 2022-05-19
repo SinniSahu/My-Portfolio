@@ -6,22 +6,7 @@ Flutter open-source responsive app using VelocityX.
 
 ## 📸 ScreenShots 📷
 
-
-<!-- <table>
-<tr>
-  <td><img src = "assets\images\0.jpg" width = 400 height = 750></td>
-  <td><img src = "assets\images\1.jpg" width = 400 height = 750></td>
-</tr>
-<tr>
-  <td><img src = "assets\images\2.jpg" width = 400 height = 750></td>
-  <td><img src = "assets\images\3.jpg" width = 400 height = 750></td>
-</tr>
-<tr>  
-  <td><img src = "assets\images\4.jpg" width = 400 height = 750></td>
-  <td><img src = "assets\images\5.jpg" width = 400 height = 750></td>
-</tr>
-</table>
- -->
+<img src = "images\web1.jpg" width = 1340 height = 835>
 
 
 ## 🔌 Dependencies

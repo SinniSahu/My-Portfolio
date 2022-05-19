@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter_icons/flutter_icons.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:portfolio/coolors.dart';
 import 'package:portfolio/widgets/socialaccounts.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class HeaderScreen extends StatelessWidget {
@@ -30,7 +28,8 @@ class HeaderScreen extends StatelessWidget {
               children: [
                 VStack([
                   if (context.isMobile) 50.heightBox else 10.heightBox,
-                  const CustomAppBar().shimmer(primaryColor: Coolors.accentColor),
+                  const FaIcon(FontAwesomeIcons.terminal, size: 50,).shimmer(primaryColor: Coolors.accentColor),
+                  // const CustomAppBar().shimmer(primaryColor: Coolors.accentColor),
                   30.heightBox,
                   nameWidget,
                   20.heightBox,
@@ -96,23 +95,6 @@ class IntroductionWidget extends StatelessWidget {
           20.heightBox,
         ].vStack(),
         
-        ElevatedButton(
-          onPressed: (){
-            launch("sinnisahu03@gmail.com");
-          }, 
-          style: ButtonStyle(
-            backgroundColor: MaterialStateProperty.all<Color>(Coolors.accentColor),
-            foregroundColor: MaterialStateProperty.all<Color>(Coolors.primaryColor),
-            overlayColor: MaterialStateProperty.resolveWith<Color?>(
-              (Set<MaterialState> states) {
-              if (states.contains(MaterialState.hovered)) {
-                return Vx.purple700;
-              }
-              return null; // Defer to the widget's default.
-              }),
-          ),
-          child: "Email".text.make()
-          ).h(50),
 
       ],
       alignment: MainAxisAlignment.spaceEvenly,
@@ -120,20 +102,6 @@ class IntroductionWidget extends StatelessWidget {
   }
 }
 
-class CustomAppBar extends StatelessWidget {
-  const CustomAppBar({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return FaIcon(FontAwesomeIcons.terminal, size: 50,);
-    // Icon(
-    //   AntDesign.codesquare,
-    //   size: 50,
-    //   color: Coolors.accentColor,
-    // );
-    
-  }
-}
 
 class PictureWidget extends StatelessWidget {
   const PictureWidget({
@@ -153,20 +121,6 @@ class PictureWidget extends StatelessWidget {
     
     
     
-    // Transform(
-    //   alignment: Alignment.center,
-    //   origin: Offset(context.percentWidth * 2, 0),
-    //   transform: Matrix4.rotationY(pi),
-    //   child: Image.asset(
-    //     "assets/pic.png",
-    //     fit: BoxFit.cover,
-    //     height: context.percentHeight * 60,
-    //   ),
-      // child: Image.network(
-      //   "https://media.istockphoto.com/photos/hiker-on-top-of-the-mountain-enjoying-sunset-picture-id1284549418",
-      //   fit: BoxFit.cover,
-      //   height: context.percentHeight * 60,
-      //   ),
     );
   }
 }

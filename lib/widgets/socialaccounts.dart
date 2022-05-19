@@ -79,7 +79,7 @@ class SocialAccounts extends StatelessWidget {
         color: Colors.white,
       ).mdClick(() {
         // _launchURLGithub();
-        launch("https://github.com/Xurde-Sni");
+        launch("https://github.com/SinniSahu");
       }).make()
     ].hStack();
   }
