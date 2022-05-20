@@ -27,7 +27,7 @@ class SocialAccounts extends StatelessWidget {
   //   }
   // }
   // _launchURLGithub() async {
-  //   const url = 'https://github.com/Xurde-Sni';
+  //   const url = 'https://github.com/';
   //   if (await canLaunch(url)) {
   //     await launch(url);
   //   } else {
