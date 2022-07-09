@@ -2,11 +2,26 @@
 
 Flutter open-source responsive app using VelocityX.
 
-[**Portfolio**](https://sinnisahu.github.io/My_Portfolio/)
+[**Portfolio**](https://sinnisahu.github.io/My-Portfolio/#/)
 
-## 📸 ScreenShots 📷
+<!-- ## 📸 ScreenShots 📷 -->
 
-<img src = "images\web1.jpg" width = 1260 height = 600>
+<div align="center">
+
+## 📷App Mock-ups📷
+
+<img src = "images\img1.jpg" width = 1260 height = 600>
+
+<table>
+<tr>
+  <td><img src = "images\img2.jpg" width = 400 height = 750></td>
+  <td><img src = "images\img3.jpg" width = 400 height = 750></td>
+</tr>
+</table>
+
+</div>
+
+<!-- <img src = "images\web1.jpg" width = 1260 height = 600> -->
 
 
 ## 🔌 Dependencies

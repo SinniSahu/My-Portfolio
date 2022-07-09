@@ -83,7 +83,7 @@ class IntroductionWidget extends StatelessWidget {
         [
           " - Introduction".text.gray300.widest.sm.make(),
           10.heightBox,
-          "Flutter Enthusiast.\n3rd year student,\nECE B.Tech.\nIIIT Allahabad"
+          "Hola!\nI'm Sinni Sahu, a Final year student at \nIndian Institute of Information Technology, Allahabad (IIIT-A).\nI'm a Flutter Enthusiast."
               .text
               .white
               .xl3
